@@ -87,3 +87,19 @@ footer{
     color: var(--footer-text-color);
     font-style: normal;
 }
+
+/* Кнопки */
+.button{
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bgc-color);
+}
+
+.button:hover, 
+.button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+.project .title{
+    color: var(--secondary-text-color);
+}
